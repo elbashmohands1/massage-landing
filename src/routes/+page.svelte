@@ -26,7 +26,7 @@
       </p>
       <div class="mt-6 flex flex-col gap-4 md:flex-row">
         <a
-        href="https://wa.me/+966545865199?text=مرحبا، أود حجز موعد لجلسة مساج علاجي"
+        href="https://wa.me/+966592625035?text=مرحبا، أود حجز موعد لجلسة مساج علاجي"
         >
         <div         class=" flex  items-center justify-between bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg text-center transition duration-300"
         >
@@ -36,12 +36,12 @@
         </a >
 
         <a
-        href="tel:+966545865199"
+        href="tel:+966592625035"
         >
         <div        
         class="flex items-center justify-between bg-sky-600 hover:bg-sky-700  text-white font-semibold  py-4 px-6 rounded-lg text-center transition duration-300"
         >
-          <img src="assets/phone-svgrepo-com.svg " alt="whatsapp" class="size-8 "><p class="text-xl">       0545865199</p>
+          <img src="assets/phone-svgrepo-com.svg " alt="whatsapp" class="size-8 "><p class="text-xl">       0592625035</p>
         </div>
 
         </a >
@@ -128,12 +128,12 @@
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
         <a
-          href="https://wa.me/+966545865199?text=مرحبا، أود حجز موعد لجلسة مساج علاجي"
+          href="https://wa.me/+966592625035?text=مرحبا، أود حجز موعد لجلسة مساج علاجي"
           class="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition duration-300"
           >حجز عبر واتساب</a
         >
         <a
-          href="tel:+966XXXXXXXXX"
+          href="tel:+966592625035"
           class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition duration-300"
           >اتصل بنا </a
         >
@@ -152,8 +152,8 @@
           class="underline hover:text-purple-500">info@massagejeddah.com</a
         >
         |
-        <a href="tel:+966XXXXXXXXX" class="underline hover:text-purple-500"
-          >+966545865199</a
+        <a href="tel:+966592625035" class="underline hover:text-purple-500"
+          >0592625035</a
         >
       </p>
       <p class="mt-2">
