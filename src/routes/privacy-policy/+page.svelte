@@ -1,0 +1,8 @@
+<!-- src/routes/privacy-policy/+page.svelte -->
+<script>
+    import '../app.css';
+  </script>
+  <div class="max-w-7xl mx-auto px-4 py-12 text-gray-200">
+    <h1 class="text-3xl font-bold text-purple-500 mb-4">سياسة الخصوصية</h1>
+    <p>نحن في مركز المساج العلاجي  نحترم خصوصيتك. المعلومات التي تجمع عبر موقعنا تُستخدم فقط لأغراض الحجز ولن تُشارك مع أطراف ثالثة.</p>
+  </div>
