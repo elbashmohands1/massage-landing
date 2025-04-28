@@ -103,9 +103,9 @@
               class="rounded-lg w-full h-48 object-cover"
             />
             <div
-              class="absolute inset-0 hover:bg-black/60 bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 rounded-lg flex items-center justify-center"
+              class="absolute inset-0 hover:bg-black/10 bg-opacity group-hover:bg-opacity-40 transition duration-300 rounded-lg flex items-center justify-center"
             >
-              <p class="text-white opacity-0 group-hover:opacity-100">
+              <p class="text-white opacity-75 hover:opacity-70 group-hover:opacity-100 bg-black w-full text-center py-2">
                 {image.caption}
               </p>
             </div>
