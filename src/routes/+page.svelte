@@ -64,7 +64,7 @@
         </div>
         <div class="md:w-1/2 mt-6 md:mt-0 md:mr-6">
           <img
-            src="src\lib\assets\7.jpg"
+            src="./src/lib/assets/7.jpg"
             alt="غرفة مساج علاجي"
             class="rounded-lg shadow-md w-full h-64 object-cover"
           />
