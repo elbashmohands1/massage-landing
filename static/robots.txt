@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-repo-name.github.io/sitemap.xml
+Sitemap: https://massage-landing.github.io/sitemap.xml
