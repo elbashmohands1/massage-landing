@@ -7,34 +7,45 @@
   <!-- Header -->
   <header
     class="bg-gradient-to-r from-gray-800 to-gray-700 py-12 relative overflow-hidden"
-    style="background-image: url('/src/lib/assets/abstract-bg.svg'); background-size: cover;"
+    style="background-image: url('/assets/abstract-bg.svg'); background-size: cover;"
   >
     <div
       class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-6"
     >
       <div class="size-24 rounded-full overflow-hidden ">
-        <img src="./src/lib/assets/2.jpg" alt="مساج جدة" />
+        <img src="/assets/2.jpg" alt="مساج جدة" />
       </div>
       <h1
         transition:fade
-        class="text-3xl md:text-6xl font-bold text-purple-500"
+        class="text-4xl md:text-6xl font-bold text-purple-500"
       >
         مساج علاجي جدة
       </h1>
       <p transition:fade={{ delay: 200 }} class="mt-2 text-lg">
         تجربة استرخاء فاخرة ومرخصة في مدينة جدة
       </p>
-      <div class="mt-6 flex flex-col gap-4 md:block">
+      <div class="mt-6 flex flex-col gap-4 md:flex-row">
         <a
         href="https://wa.me/+966545865199?text=مرحبا، أود حجز موعد لجلسة مساج علاجي"
-        class="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition duration-300"
-        >حجز عبر واتساب</a
-      >
-      <a
+        >
+        <div         class=" flex  items-center justify-between bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg text-center transition duration-300"
+        >
+          <img src="assets/icons8-whatsapp.svg" alt="whatsapp"><p>          حجز عبر واتساب </p>
+        </div>
+
+        </a >
+
+        <a
         href="tel:+966545865199"
-        class="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition duration-300"
-        >0545865199  </a
-      >
+        >
+        <div        
+        class="flex items-center justify-between bg-sky-600 hover:bg-sky-700  text-white font-semibold  py-4 px-6 rounded-lg text-center transition duration-300"
+        >
+          <img src="assets/phone-svgrepo-com.svg " alt="whatsapp" class="size-8 "><p class="text-xl">       0545865199</p>
+        </div>
+
+        </a >
+     
       </div>
     </div>
   </header>
@@ -64,7 +75,7 @@
         </div>
         <div class="md:w-1/2 mt-6 md:mt-0 md:mr-6">
           <img
-            src="./src/lib/assets/7.jpg"
+            src="/assets/7.jpg"
             alt="غرفة مساج علاجي"
             class="rounded-lg shadow-md w-full h-64 object-cover"
           />
@@ -78,13 +89,13 @@
       class="bg-gray-800 rounded-lg shadow-xl p-8 mb-12"
     >
       <h2 class="text-2xl font-semibold text-purple-500 mb-6 text-center">
-        معرض الصور
+        ما يميزنا
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {#each [{ src: "./src/lib/assets/3.jpg", alt: "جلسة مساج", caption: "جلسة علاجية" },
-         { src: "./src/lib/assets/4.jpg", alt: "غرفة مساج", caption: "خدمة التدليك" }, 
-         { src: "./src/lib/assets/6.jpg", alt: "معدات مساج", caption: "معدات حديثة" },
-          { src: "./src/lib/assets/1.jpg", alt: "جو استرخاء", caption: "أجواء فاخرة" }] as image}
+        {#each [{ src: "/assets/3.jpg", alt: "جلسة مساج", caption: "جلسة علاجية" },
+         { src: "/assets/4.jpg", alt: "غرفة مساج", caption: "خدمة التدليك" }, 
+         { src: "/assets/6.jpg", alt: "معدات مساج", caption: "معدات حديثة" },
+          { src: "/assets/1.jpg", alt: "جو استرخاء", caption: "أجواء فاخرة" }] as image}
           <div class="relative group">
             <img
               src={image.src}
