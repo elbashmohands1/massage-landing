@@ -41,7 +41,7 @@
         <div        
         class="flex items-center justify-between bg-sky-600 hover:bg-sky-700  text-white font-semibold  py-4 px-6 rounded-lg text-center transition duration-300"
         >
-          <img src="assets/phone-svgrepo-com.svg " alt="whatsapp" class="size-8 "><p class="text-xl">       0592625035</p>
+          <img src="assets/phone-svgrepo-com.svg " alt="whatsapp" class="size-8 "><p class="text-xl">       0592625043</p>
         </div>
 
         </a >
@@ -153,7 +153,7 @@
         >
         |
         <a href="tel:+966592625043" class="underline hover:text-purple-500"
-          >0592625035</a
+          >0592625043</a
         >
       </p>
       <p class="mt-2">
