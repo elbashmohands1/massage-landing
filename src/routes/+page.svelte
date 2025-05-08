@@ -29,7 +29,6 @@
       </p>
       <div class="mt-6 flex flex-col gap-4 md:flex-row">
         <a
-        onclick={handlewhatsapp}
         href="https://wa.me/+966592625043?text=مرحبا، أود حجز موعد لجلسة مساج علاجي"
         >
         <div         class=" flex  items-center justify-between bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg text-center transition duration-300"
